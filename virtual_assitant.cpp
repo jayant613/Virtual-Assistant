@@ -68,10 +68,32 @@ int main()
                 {
                     cout << "Hello Boss........" << endl;
                 }
-                if (strcmp(ch, "hi") == 0 || strcmp(ch, "hey") == 0 || strcmp(ch, "hello") == 0)
+
+                else if (strcmp(ch, "bye") == 0 || strcmp(ch, "stop") == 0 || strcmp(ch, "exit") == 0)
                 {
-                    cout << "Hello Boss........" << endl;
+                    cout << "Good Bye Sir, Have a Nice Day !!!!" << endl;
                 }
+
+                else if (strcmp(ch, "who are you") == 0 || strcmp(ch, "tell me about yourself") == 0 || strcmp(ch, "about") == 0)
+                {
+                    cout << "I am a virtual assistant created by my master CodeInertia !!!" << endl;
+                }
+
+                else if (strcmp(ch, "how are you") == 0 || strcmp(ch, "whatsup") == 0 || strcmp(ch, "how is your day") == 0)
+                {
+                    cout << "I am good sir, tell me how can i help you...." << endl;
+                }
+
+                else if ((ch, 'time') == 0 || strcmp(ch, 'date'))
+                {
+                    //make function to show date and time
+                }
+
+                else
+                {
+                    cout << "Sorry could not understand your query please try again !!!" << endl;
+                }
+
             } while (1);
         }
         else
